@@ -1,0 +1,31 @@
+body {
+    background-color: #355070;
+    color: #010c1b;
+}
+
+.navbar {
+    text-align: center;
+    background-color: #D3D0CB;
+    padding: 15px;
+    word-spacing: 50px;
+}
+
+a {
+    color: #240115;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 2px 2px 5px grey;
+}
+
+.header {
+    text-align: center;
+    text-shadow: 2px 2px 5px #D3D0CB;
+}
+
+#fName {
+    font-size: 50px;
+}
+
+#title {
+    font-size: 28px;
+}
