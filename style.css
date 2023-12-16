@@ -14,7 +14,15 @@ a {
     color: #240115;
     font-weight: bold;
     font-size: 18px;
-    text-shadow: 2px 2px 5px grey;
+    text-shadow: 5px 5px 5px grey;
+}
+
+a:hover {
+    text-shadow: 3px 3px 5px grey;
+}
+
+a:active {
+    text-shadow: 1px 1px 5px grey;
 }
 
 .header {
@@ -28,4 +36,17 @@ a {
 
 #title {
     font-size: 28px;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.about {
+    text-align: justify;
+}
+
+#bio {
+    margin-left: 20%;
+    margin-right: 20%;
 }
