@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Me!</title>
+  </head>
+  <body>
+    <section class="navbar">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </section>
+    <section class="header">
+      <h1 id="fName">Brett Poindexter</h1>
+      <h3 id="title">Your Next Jr Software Developer!</h3>
+    </section>
+
+    <form class="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" />
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" />
+
+      <label for="phone">Phone:</label>
+      <input type="tel" name="phone" id="phone" />
+
+      <label for="message">Message:</label>
+      <textarea
+        name="message"
+        id="message"
+        placeholder="Enter your message here..."
+        rows="10"
+        cols="50"
+      ></textarea>
+      <input type="submit" value="Send" id="submit" />
+    </form>
+  </body>
+</html>
