@@ -8,6 +8,7 @@ body {
   background-color: #d3d0cb;
   padding: 15px;
   word-spacing: 50px;
+  max-width: 100%;
 }
 
 a {
@@ -38,6 +39,17 @@ a:active {
   font-size: 28px;
 }
 
+#show-img1,
+#show-img2 {
+  max-width: 50% !important;
+  height: auto;
+}
+
+img {
+  max-width: 100% !important;
+  height: auto;
+}
+
 .img-container {
   text-align: center;
 }
@@ -51,4 +63,45 @@ a:active {
   margin-left: 20%;
   margin-right: 20%;
   color: #d3d0cb;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0px 0px 5px #d3d0cb;
+  gap: 10px;
+}
+
+#name,
+#phone,
+#email {
+  border: none;
+  border-radius: 10em;
+  width: auto;
+  height: 25px;
+  background-color: #d3d0cb;
+}
+
+#message {
+  border: none;
+  border-radius: 10px;
+  background-color: #d3d0cb;
+}
+
+#submit {
+  border: none;
+  border-radius: 10em;
+  width: 75px;
+  height: 25px;
+  box-shadow: 5px 5px 5px #d3d0bc;
+}
+
+#submit:hover {
+  box-shadow: 3px 3px 5px #d3d0bc;
+}
+
+#submit:active {
+  box-shadow: 1px 1px 5px #d3d0bc;
 }
