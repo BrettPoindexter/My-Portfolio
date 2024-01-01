@@ -3,7 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="javascript.js"></script>
+    <script src="javascript.js">
+      const form = document.querySelector('#contact-form');
+      const submitButton = document.getElementById('#submit');
+
+      form.addEventListener('submit', (e) => {
+        submitButton.disabled = true;
+        e.preventDefault();
+        window.location.href = window.location.origin + '/success.html';
+      });
+    </script>
     <link rel="stylesheet" href="style.css" />
     <title>Contact Me!</title>
   </head>
@@ -39,7 +48,7 @@
         rows="10"
         cols="50"
       ></textarea>
-      <input type="submit" value="Send" id="submit" />
+      <input formaction="success.html" type="submit" value="Send" id="submit" />
     </form>
   </body>
 </html>
