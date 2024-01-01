@@ -105,3 +105,19 @@ img {
 #submit:active {
   box-shadow: 1px 1px 5px #d3d0bc;
 }
+
+.thanks {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-shadow: 1px 2px 5px #d3d0cb;
+  margin-top: 10%;
+}
+
+#main-thanks {
+  font-size: 50px;
+}
+
+#sec-thanks {
+  font-size: 28px;
+}
